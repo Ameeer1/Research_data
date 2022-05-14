@@ -1,0 +1,62 @@
+.light_Mode
+{
+    background-color: #ffffff;
+    color: #000;
+}
+.dark_Mode
+{
+    background-color: #000;
+    color: #fff;
+}
+.light_Color
+{
+    background-color: gold;
+    border-color: #383000;
+    color: #383000;
+}
+.dark_Color
+{
+    background-color: gold;
+    border-color: #fff8d8;
+    color: #fff8d8;
+}
+
+.start_Button
+{
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    font-size: 30px;
+    border-style: solid;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        border-radius: 20px;
+    }
+
+    25% {
+        background-color: yellow;
+        border-radius: 15px;
+    }
+
+    50% {
+        background-color: cyan;
+        border-radius: 10px;
+    }
+
+    75% {
+        background-color: lime;
+        border-radius: 15px;
+    }
+
+    100% {
+        background-color: red;
+        border-radius: 20px;
+    }
+}
